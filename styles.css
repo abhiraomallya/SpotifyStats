@@ -3,7 +3,7 @@ body {
     font-size: 26px;
     max-width: 100vw;
     min-height: 100vh;
-    background: #222222;
+    background: #000000;
     color: white;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ ul {
 
 .dropdown-menu{
     float: left;
-    background-color: #1fdf64;
+    background-color: #1ed760;
     border: none;
 }
 
@@ -76,7 +76,7 @@ ul {
     align-items: center;
     width: 177.31px;
     padding: 5px 0;
-    background-color: #1fdf64;
+    background-color: #1ed760;
     border-radius: 0 0 25px 25px;
     border: none;
     color: white;
@@ -96,7 +96,7 @@ img {
 }
 
 footer {
-    background-color: #1DB954;
+    background-color: #1ed760;
     color: #fff;
     padding: 10px;
     text-align: center;

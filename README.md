@@ -1,2 +1,3 @@
 # SpotifyStats
+
 Frontend - SpotifyStats

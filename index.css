@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #222222;
+    background: #000000;
     color: white;
 }
 
@@ -34,7 +34,7 @@ h1 {
 }
 
 .login {
-    background-color: #1fdf64;
+    background-color: #1ed760;
     border-radius: 25px;
     padding: 15px;
     border: none;
@@ -46,7 +46,7 @@ h1 {
   
 /* Style the footer */
 footer {
-    background-color: #1DB954;
+    background-color: #1ed760;
     color: #fff;
     padding: 10px;
     text-align: center;

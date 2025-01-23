@@ -13,7 +13,7 @@ async function fetchAndDisplayAPIData(url) {
             dataEntries = await response.json();
             sessionStorage.setItem(url, JSON.stringify(dataEntries));
         }
-
+        
         console.log(dataEntries);
         displayArtists(dataEntries);
     } catch (err) {
