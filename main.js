@@ -34,26 +34,26 @@ function displayArtists(artists) {
 }
 
 document.getElementById('artists-medium').addEventListener('click', async () => {
-    await fetchAndDisplayAPIData('http://localhost:8888/top-artists-medium');
+    await fetchAndDisplayAPIData('http://3.129.209.100:8888/top-artists-medium');
 });
 
 document.getElementById('artists-long').addEventListener('click', async () => {
-    await fetchAndDisplayAPIData('http://localhost:8888/top-artists-long');
+    await fetchAndDisplayAPIData('http://3.129.209.100:8888/top-artists-long');
 });
 
 document.getElementById('artists-short').addEventListener('click', async () => {
-    await fetchAndDisplayAPIData('http://localhost:8888/top-artists-short');
+    await fetchAndDisplayAPIData('http://3.129.209.100:8888/top-artists-short');
 });
 
 document.getElementById('tracks-medium').addEventListener('click', async () => {
-    await fetchAndDisplayAPIData('http://localhost:8888/top-tracks-medium');
+    await fetchAndDisplayAPIData('http://3.129.209.100:8888/top-tracks-medium');
 });
 
 document.getElementById('tracks-long').addEventListener('click', async () => {
-    await fetchAndDisplayAPIData('http://localhost:8888/top-tracks-long');
+    await fetchAndDisplayAPIData('http://3.129.209.100:8888/top-tracks-long');
 });
 
 document.getElementById('tracks-short').addEventListener('click', async () => {
-    await fetchAndDisplayAPIData('http://localhost:8888/top-tracks-short');
+    await fetchAndDisplayAPIData('http://3.129.209.100:8888/top-tracks-short');
 });
 
